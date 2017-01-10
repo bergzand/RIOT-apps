@@ -1,0 +1,119 @@
+################## Print Registers ###################
+
+Short-Address-Registers
+RXMCR     [0x00] = 0 
+PANIDL    [0x01] = 23 
+PANIDH    [0x02] = 0 
+SADRL     [0x03] = 72 
+SADRH     [0x04] = 34 
+EADR0     [0x05] = 72 
+EADR1     [0x06] = 34 
+EADR2     [0x07] = 76 
+EADR3     [0x08] = 34 
+EADR4     [0x09] = 5 
+EADR5     [0x0a] = 51 
+EADR6     [0x0b] = 34 
+EADR7     [0x0c] = 32 
+RXFLUSH   [0x0d] = 0 
+
+ORDER     [0x10] = ff 
+TXMCR     [0x11] = 1c 
+ACKTMOUT  [0x12] = 39 
+ESLOTG1   [0x13] = 0 
+SYMTICKL  [0x14] = 40 
+SYMTICKH  [0x15] = 51 
+PACON0    [0x16] = 29 
+PACON1    [0x17] = 2 
+PACON2    [0x18] = 98 
+TXBCON0   [0x1a] = 0 
+TXNCON    [0x1b] = 4 
+TXG1CON   [0x1c] = 0 
+TXG2CON   [0x1d] = 0 
+ESLOTG23  [0x1e] = 0 
+ESLOTG45  [0x1f] = 0 
+
+ESLOTG67  [0x20] = 0 
+TXPEND    [0x21] = 84 
+WAKECON   [0x22] = 80 
+FRMOFFSET [0x23] = 0 
+TXSTAT    [0x24] = 0 
+TXBCON1   [0x25] = 30 
+GATECLK   [0x26] = 0 
+TXTIME    [0x27] = 48 
+HSYMTMRL  [0x28] = 0 
+HSYMTMRH  [0x29] = 0 
+SOFTRST   [0x2a] = 0 
+SECCON0   [0x2c] = 0 
+SECCON1   [0x2d] = 0 
+TXSTBL    [0x2e] = 95 
+
+RXSR      [0x30] = 0 
+INTSTAT   [0x31] = 0 
+INTCON    [0x32] = f6 
+GPIO      [0x33] = 0 
+TRISGPIO  [0x34] = 0 
+SLPACK    [0x35] = 0 
+RFCTL     [0x36] = 0 
+SECCR2    [0x37] = 0 
+BBREG0    [0x38] = 0 
+BBREG1    [0x39] = 0 
+BBREG2    [0x3a] = 80 
+BBREG3    [0x3b] = d8 
+BBREG4    [0x3c] = 9c 
+BBREG6    [0x3e] = 41 
+CCAEDTH   [0x3f] = 60 
+
+
+Long-Address-Registers
+RFCON0    [0x200]  = f3 
+RFCON1    [0x201] = 2 
+RFCON2    [0x202] = 80 
+RFCON3    [0x203] = 0 
+RFCON5    [0x205] = 0 
+RFCON6    [0x206] = 90 
+RFCON7    [0x207] = 80 
+RFCON8    [0x208] = 10 
+SLPCAL0   [0x209] = 0 
+SLPCAL1   [0x20a] = 0 
+SLPCAL2   [0x20b] = 0 
+RFSTATE   [0x20f] = a0 
+
+RSSI      [0x210] = 64 
+SLPCON0   [0x211] = 2 
+
+SLPCON1   [0x220] = 21 
+WAKETIMEL [0x222] = a 
+WAKETIMEH [0x223] = 0 
+REMCNTL   [0x224] = 0 
+REMCNTH   [0x225] = 0 
+MAINCNT0  [0x226] = 0 
+MAINCNT1  [0x227] = 0 
+MAINCNT2  [0x228] = 0 
+MAINCNT3  [0x229] = 0 
+TESTMODE  [0x22f] = 8 
+
+ASSOEADR0 [0x230] = 0 
+ASSOEADR1 [0x231] = 0 
+ASSOEADR2 [0x232] = 0 
+ASSOEADR3 [0x233] = 0 
+ASSOEADR4 [0x234] = 0 
+ASSOEADR5 [0x235] = 0 
+ASSOEADR6 [0x236] = 0 
+ASSOEADR7 [0x237] = 0 
+ASSOSADR0 [0x238] = 0 
+ASSOSADR1 [0x239] = 0 
+
+UPNONCE0  [0x240] = 0 
+UPNONCE1  [0x241] = 0 
+UPNONCE2  [0x242] = 0 
+UPNONCE3  [0x243] = 0 
+UPNONCE4  [0x244] = 0 
+UPNONCE5  [0x245] = 0 
+UPNONCE6  [0x246] = 0 
+UPNONCE7  [0x247] = 0 
+UPNONCE8  [0x248] = 0 
+UPNONCE9  [0x249] = 0 
+UPNONCE10 [0x24a] = 0 
+UPNONCE11 [0x24b] = 0 
+UPNONCE12 [0x24c] = 0 
+
