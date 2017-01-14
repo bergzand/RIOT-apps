@@ -57,6 +57,7 @@ USEMODULE += mrf24j40
 USEMODULE += gnrc_sock_udp
 
 USEMODULE += saul_reg
+USEMODULE += saul_gpio
 USEMODULE += saul_default
 USEMODULE += auto_init_saul
 USEMODULE += jc42

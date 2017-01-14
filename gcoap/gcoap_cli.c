@@ -101,7 +101,7 @@ static ssize_t _saul_handler(coap_pkt_t* pdu, uint8_t *buf, size_t len)
 {
     phydat_t phy;
     gcoap_resp_init(pdu, buf, len, COAP_CODE_CONTENT);
-    saul_reg_read(saul_reg_find_nth(0), &phy);
+    saul_reg_read(saul_reg_find_nth(2), &phy);
 
     size_t payload_len = fmt_s16_dfp((char *)pdu->payload, phy.val[0],2);
 
