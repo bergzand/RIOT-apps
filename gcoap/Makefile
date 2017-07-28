@@ -4,7 +4,7 @@
 APPLICATION = gcoap
 
 # If no BOARD is found in the environment, use this default:
-BOARD ?= maple-mini
+BOARD ?= native
 
 # This has to be the absolute path to the RIOT base directory:
 RIOTBASE ?= $(CURDIR)/../../RIOT
@@ -51,19 +51,20 @@ USEMODULE += netstats_l2
 USEMODULE += netstats_ipv6
 USEMODULE += netstats_rpl
 
-USEMODULE += mrf24j40
+#USEMODULE += mrf24j40
 
 
 USEMODULE += gnrc_sock_udp
 
 USEMODULE += saul_reg
-USEMODULE += saul_gpio
+#USEMODULE += saul_gpio
 USEMODULE += saul_default
 USEMODULE += auto_init_saul
-USEMODULE += jc42
+#USEMODULE += jc42
 
 USEPKG += nanocoap
 USEMODULE += gcoap
+USEMODULE += gcoap_sysuri
 # Required by nanocoap, but only due to issue #5959.
 USEMODULE += posix
 
