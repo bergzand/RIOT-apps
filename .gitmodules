@@ -2,3 +2,6 @@
 	path = RIOT
 	url = https://github.com/bergzand/RIOT.git
 	branch = node-work
+[submodule "boards_dmn"]
+	path = boards_dmn
+	url = git@github.com:bergzand/boards_dmn.git
